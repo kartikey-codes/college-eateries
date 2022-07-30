@@ -1,0 +1,192 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* NAVIGATION */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative;
+    top: 0px; */
+    margin-top: 1.5rem;
+}
+
+/* NAVGATION LIST */
+#navbar #logo{
+    color: white;
+    font-size: 25px;
+    margin-left: 5rem;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+#navbar ul{
+    display: flex;
+    margin-right: 5rem;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 34px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* HOME */
+#Home{
+    margin: 7.5rem;
+    color: white;
+    display: flex;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttons button{
+
+    box-sizing: border-box;
+
+    background: #DCCA87;
+    border: 2px solid #C09A7E;
+    border-radius: 6px;
+
+    padding: 6px 20px;
+    /* border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(169, 58, 58);
+    color: white; */
+    margin: 17px;
+    font-size: 1.2rem;
+    /* border-radius: 10px; */
+    cursor: pointer;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.6683px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: #000000;
+}
+
+#Home #text h1{
+    font-family: 'Cormorant Unicase';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68.4622px;
+    line-height: 130%;
+    /* or 89px */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    text-shadow: 4px 3px 3px #DCCA87;
+    color:#DCCA87;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    padding-right: 2.5rem;
+}
+
+#Home #text p{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+/* DESIGN */
+#design1{
+    position: absolute;
+    height: 27rem;
+    border: 2px solid white;
+    width: 50%;
+    border-radius: 50%;
+    left: -42rem;
+    top: 31rem;
+}
+
+#design2{
+    position: absolute;
+    height: 25rem;
+    border: 2px solid white;
+    width: 47%;
+    border-radius: 50%;
+    left: -40rem;
+    top: 36rem;
+}
+
+#design3{
+    position: absolute;
+    height: 25rem;
+    border: 2px solid white;
+    width: 43%;
+    border-radius: 50%;
+    right: -36rem;
+    top: 53rem;
+}
+
+#design4{
+    position: absolute;
+    height: 25rem;
+    border: 2px solid white;
+    width: 43%;
+    border-radius: 50%;
+    right: -36rem;
+    top: 58rem;
+}
+
+
+/* ABOUT US */
+#about{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#aboutText{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+}
+#Home #text a{
+    color: black;
+    background-color:#DCCA87;
+    text-decoration: none;
+}
